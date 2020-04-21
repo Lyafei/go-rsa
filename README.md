@@ -1,12 +1,9 @@
 # GoRSA Encryption library
 
-based on https://github.com/farmerx/gorsa Optimized the following points for packaging:
+### gorsa
+gorsa 支持rsa/RSAWithSHA1/RSAWithSHA256 签名验证算法。
 
-- Optimization of public and private keys requires registration and initialization in advance.
-- The encryption machine does not perform base64 processing, and avoids secondary encapsulation of base64 during cross-program transfer or storage
-- The incoming return uses the string type uniformly to avoid conversion trouble
-- Supports RSAWithSHA1 and RSAWithSHA256 signature verification algorithms
-
+### gorsa 使用方法
 Get expansion pack:
 
 ```
