@@ -1,7 +1,7 @@
 # GoRSA Encryption library
 
 ### gorsa
-gorsa 支持rsa/RSAWithSHA1/RSAWithSHA256 签名验证算法。
+gorsa 支持 RSA/RSAWithSHA1/RSAWithSHA256 签名验证算法。
 
 ### gorsa 使用方法
 Get expansion pack:
