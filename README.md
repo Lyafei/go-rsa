@@ -1,13 +1,13 @@
 # GoRSA Encryption library
 
-### gorsa
-gorsa 支持 RSA/RSAWithSHA1/RSAWithSHA256 签名验证算法。
+### go-rsa
+go-rsa 支持 RSA/RSAWithSHA1/RSAWithSHA256 签名验证算法。
 
-### gorsa 使用方法
+### go-rsa 使用方法
 Get expansion pack:
 
 ```
-go get github.com/Lyafei/gorsa
+go get github.com/Lyafei/go-rsa
 ```
 
 Specific use:
@@ -19,7 +19,7 @@ package main
 import (
 	"log"
 	"errors"
-	"github.com/Lyafei/gorsa"
+	"github.com/Lyafei/go-rsa"
 )
 
 var Pubkey = `-----BEGIN Public key-----
